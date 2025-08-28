@@ -37,7 +37,7 @@ spec:
             none:   # specify not to compress while uploading to cloud
               {}
     container:
-      image: balakalyandocker/miltonc:v1 # Your docker image name
+      image: docker.io/balakalyandocker/miltonc:v1 # Your docker image name
       command: ["/bin/sh", "-c"]
       env:
         - name: CLASS_LABEL # name of the environment variable inside Docker container
